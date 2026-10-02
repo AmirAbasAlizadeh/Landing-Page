@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .container {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -67,13 +70,21 @@ a {
     align-content: center;
     text-decoration: none;
 }
-.left-container button {
-    width: 100px;
+
+.left-container a {
+      width: 110px;
     background-color: #3882F6;
-    border: solid #3882F6;
+    color: white;
+    border: 2px solid #3882F6;
     border-radius: 8px;
     padding: 3px 10px;
     margin: 8px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    box-sizing: border-box;
 }
 h1 {
     margin: 8px 0;
@@ -131,8 +142,9 @@ p {
 
 }
 .quote-container {
-    margin-top: 5rem;
-    margin-bottom:4rem;
+    margin-top: 3rem;
+    margin-bottom:2rem;
+    padding: 0 3rem;
 }
 
 .text {
@@ -149,17 +161,23 @@ p {
     margin-top: 0px;
 }
 
-
+/* <-----------------------------------------------------------> */
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5.5rem 0 ;
+}
 .inner-container {
     padding: 2rem 4rem;
     display: flex;
-    width: fit-content;
-    height: 250px;
+    width: max-content;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #3882F6;
     border-radius: 8px;
-    
+    gap: 4rem;
 }
 
 .inner-container .ads {
@@ -167,11 +185,46 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     color: #F9FAF8;
+    
 }
 
 .sign-up-container .ads #header {
     font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
 }
 .sign-up-container .ads #text {
     font-size: 15px;
+    margin-top: 2px;
+}
+
+.a {
+    width: 110px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 3px 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+/* <---------------------------------------------> */
+.edge-setter-5 {
+    background-color : #1F2937;
+    height: 100px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
